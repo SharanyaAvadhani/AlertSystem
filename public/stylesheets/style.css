@@ -1,0 +1,62 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.select-box {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  background-color: #fff;
+}
+
+.placeholder {
+  color: #888;
+}
+
+.icon-down {
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.options {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  display: none;
+  background-color: #fff;
+}
+
+.options li {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.options label {
+  margin-left: 10px;
+}
